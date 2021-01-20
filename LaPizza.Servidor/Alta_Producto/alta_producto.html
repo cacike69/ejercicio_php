@@ -1,0 +1,93 @@
+<!doctype html>
+<meta charset="utf-8">
+<html lang="en">
+
+    
+    <head>
+
+        <!-- <link href="" rel="stylesheet" type="text/css"> -->
+
+        <!-- css bootstrap  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> </head>
+    <!-- <link rel="stylesheet" href="../Ver_Productos/style.css"> -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- // swett alert -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.0/sweetalert2.js"></script>
+
+    </head>
+
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/Menu/menu.html">Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/Alta_Producto/alta_producto.html">Alta producto
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Ver_Productos/ver_productos.php">Ver productos</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </nav>
+
+
+        <br>
+        <br>
+
+
+        <form action="alta_producto.php" method="get">
+            <div class="login">
+                <h1>Añadir productos</h1>
+
+
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Nombre Producto</label>
+                    <input type="text" name="Nombre_Producto" class="form-control" id="formGroupExampleInput" placeholder="Nombre Producto">
+                </div>
+
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Descripcion Producto</label>
+                    <input type="text" name="Descripcion_Producto" class="form-control" id="formGroupExampleInput2" placeholder="Ingredientes">
+                </div>
+
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Precio Producto</label>
+                    <input type="text" name="Precio_Producto" class="form-control" id="formGroupExampleInput2" placeholder="Precio">
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block btn-large">Siguiente</button>
+
+            </div>
+
+            <!-- 
+                    <p>Login</p>
+                    <label for="Usuariolog">Usuario</label>
+                    <input type="text" name="Usuariolog"><br><br>
+                    
+            
+            		<label for="Contrasenyalog">Contraseña</label>
+                    <input type="password" name="Contrasenyalog"><br><br>
+            
+            
+                  
+                    
+                    
+            		<input type="submit" value="Siguiente"> -->
+        </form>
+    </body>
+
+</html>
